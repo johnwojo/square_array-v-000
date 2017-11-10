@@ -1,3 +1,4 @@
 def square_array(array)
-  cats = array.each
+  array.each
+  new_array = array.each{|color| color**2}
 end
